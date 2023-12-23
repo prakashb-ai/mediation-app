@@ -6,6 +6,8 @@ from .serializers import *
 
 # Create your views here.
 
+#for profile
+
 @api_view(['GET'])
 def get_data_profile(request):
     profile = MediaitonProfile.objects.all()
